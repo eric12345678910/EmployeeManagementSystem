@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="236.0" layoutY="27.0" text="Generate Payroll Report" />
+      <Button layoutX="249.0" layoutY="121.0" mnemonicParsing="false" text="Employee ID" />
+      <Button layoutX="251.0" layoutY="157.0" mnemonicParsing="false" text="Department" />
+      <Button layoutX="226.0" layoutY="193.0" mnemonicParsing="false" text="Full-Time Employees" />
+      <Button layoutX="225.0" layoutY="229.0" mnemonicParsing="false" text="Part-Time Employees" />
+      <Button layoutX="541.0" layoutY="360.0" mnemonicParsing="false" onAction="#switchToMainMenu" text="Back" />
+      <Label layoutX="213.0" layoutY="77.0" text="Select Type of Payroll Report" />
+   </children>
+</AnchorPane>

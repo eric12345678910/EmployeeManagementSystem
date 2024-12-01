@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+    <children>
+        <Label layoutX="219.0" layoutY="63.0" text="Remove Employee From System" />
+        <Button layoutX="517.0" layoutY="337.0" mnemonicParsing="false" onAction="#switchToManageInfo" text="Back" />
+        <Label layoutX="107.0" layoutY="110.0" text="Enter Employee ID" />
+        <TextField fx:id="tf_employeeId" layoutX="220.0" layoutY="105.0" />
+        <Button layoutX="269.0" layoutY="337.0" mnemonicParsing="false" onAction="#submitRemoveEmployee" text="Confirm" />
+
+    </children>
+</AnchorPane>

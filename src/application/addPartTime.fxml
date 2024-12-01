@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="219.0" layoutY="63.0" text="Add New Part-Time Employee" />
+
+      <Label layoutX="146.0" layoutY="110.0" text="First Name" />
+      <Label layoutX="146.0" layoutY="151.0" text="Last Name" />
+      <Label layoutX="163.0" layoutY="192.0" text="Position" />
+      <Label layoutX="143.0" layoutY="231.0" text="Department" />
+      <Label layoutX="144.0" layoutY="271.0" text="Hourly Rate" />
+
+      <TextField fx:id="tf_firstName" layoutX="220.0" layoutY="105.0" />
+      <TextField fx:id="tf_lastName" layoutX="220.0" layoutY="146.0" />
+      <TextField fx:id="tf_position" layoutX="220.0" layoutY="187.0" />
+      <TextField fx:id="tf_department" layoutX="220.0" layoutY="226.0" />
+      <TextField fx:id="tf_hourlyRate" layoutX="220.0" layoutY="266.0" />
+
+      <Label fx:id="label_errorMessage" layoutX="220.0" layoutY="300.0"  visible="false"></Label>
+
+      <Button layoutX="265.0" layoutY="337.0" mnemonicParsing="false" onAction="#submitPartTime" text="Submit" />
+      <Button layoutX="517.0" layoutY="337.0" mnemonicParsing="false" onAction="#switchToManageInfo" text="Back" />
+   </children>
+</AnchorPane>

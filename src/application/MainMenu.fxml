@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+    <children>
+        <Label layoutX="238.0" layoutY="55.0" text="Main Menu" />
+        <Button layoutX="198.0" layoutY="111.0" mnemonicParsing="false" onAction="#switchToManageInfo" text="Manage Employee Info" />
+        <Button layoutX="207.0" layoutY="147.0" mnemonicParsing="false" onAction="#switchToViewInfo" text="View Employee Info" />
+        <Button layoutX="196.0" layoutY="187.0" mnemonicParsing="false" onAction="#switchToPayroll" text="Generate Payroll Report" />
+        <Label layoutX="182.0" layoutY="28.0" text="Employee Management System" />
+      <Button layoutX="486.0" layoutY="360.0" mnemonicParsing="false" text="Exit" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="238.0" layoutY="48.0" text="Manage Employee Info" />
+
+      <Button layoutX="206.0" layoutY="106.0" mnemonicParsing="false" onAction="#switchToAddFullTime" text="Add New Full-Time Employee" />
+      <Button layoutX="236.0" layoutY="181.0" mnemonicParsing="false" text="Remove Employee" />
+      <Button layoutX="205.0" layoutY="143.0" mnemonicParsing="false" onAction="#switchToAddPartTime" text="Add New Part-Time Employee" />
+
+      <Button layoutX="541.0" layoutY="360.0" mnemonicParsing="false" onAction="#switchToMainMenu" text="Back" />
+   </children>
+</AnchorPane>
